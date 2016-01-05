@@ -27,7 +27,6 @@ append, insert and extend.
 
 def listMethods():
 
-	'''Illustrates list methods'''
 
 	a = ['Usman','Mahmood','Khan']
 	b = [1,2,3]
@@ -55,7 +54,6 @@ faster method than simple looping.
 
 def listComprehension():
 
-	'''Illustrates List comprehension'''
 
 	nums = [1, 2, 3, 4]
 	vals = [10,11,12,13]
@@ -73,6 +71,7 @@ Run any one of above listed function to test
 with commands.
 
 '''
+
 def main():
 	listConcepts()
 	listMethods()

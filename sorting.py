@@ -4,9 +4,9 @@ def sortFunc(s):
 	return s[-1]
 
 
-def sortConcepts():
+'''Illustrates basic sorting through sorted()'''
 
-	'''Illustrates basic sorting through sorted()'''
+def sortConcepts():
 
 	a = [5,2,1,3]
 	print sorted(a)
@@ -17,6 +17,14 @@ def sortConcepts():
 	print sorted(a, key=sortFunc)
 
 	print '----------------------------------------------'
+
+
+'''
+Main function to run test modules.
+Run any one of above listed function to test
+with commands.
+
+'''
 
 def main():
 
