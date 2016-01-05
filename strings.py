@@ -1,8 +1,11 @@
 import sys
 
+'''
+Demonstrates string functions
+'''
+
 def stringMethods():
 
-	'''Demonstrates string functions'''
 
 	s = 'Hello, how are you doing?'
 
@@ -24,10 +27,12 @@ def stringMethods():
 
 	print '---------------------------------------------------------------------'
 	
+'''
+Demonstrates procedures to find sub-strings
+'''
 
 def stringSlicing():
 
-	'''Demonstrates procedures to find sub-strings'''
 
 	s = 'I am doing great! How about you?'
 
@@ -38,9 +43,12 @@ def stringSlicing():
 
 	print '---------------------------------------------------------------------'
 
+'''
+Displays the string in unicode format
+'''
+
 def unicodeString():
 
-	'''Displays the string in unicode format'''
 
 	examples = ['Usman','Mahmood','Khan']
 	s = ('\n').join(examples)
@@ -48,6 +56,14 @@ def unicodeString():
 	print t						#String in unicode format
 
 	print '---------------------------------------------------------------------'
+
+'''
+Main function to run test modules.
+Run any one of above listed function to test
+with commands.
+
+'''
+
 
 def main():
 
