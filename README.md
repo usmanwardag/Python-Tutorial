@@ -8,6 +8,5 @@ To understand a particular concept, run the python file and include relevant fun
 ###EXAMPLE:
 
 To understand list comprehension:
-  - Open lists.py and write the following code in main()
-      listComprehension()
+  - Open lists.py and write the following line of code in main(): listComprehension()
   - python lists.py
