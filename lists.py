@@ -19,6 +19,12 @@ def listConcepts():
 	print '--------------------------------------------------'
 
 
+'''
+Implements various list methods such ass
+append, insert and extend.
+
+'''
+
 def listMethods():
 
 	'''Illustrates list methods'''
@@ -42,6 +48,11 @@ def listMethods():
 	print '--------------------------------------------------'
 
 
+'''
+Implements list comprehension which is 
+faster method than simple looping.
+'''
+
 def listComprehension():
 
 	'''Illustrates List comprehension'''
@@ -56,6 +67,12 @@ def listComprehension():
 	print '--------------------------------------------------'
 
 
+'''
+Main function to run test modules.
+Run any one of above listed function to test
+with commands.
+
+'''
 def main():
 	listConcepts()
 	listMethods()
