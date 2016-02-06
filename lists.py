@@ -19,8 +19,9 @@ def listConcepts():
 	print '--------------------------------------------------'
 
 
+
 '''
-Implements various list methods such ass
+Implements various list methods such as
 append, insert and extend.
 
 '''
@@ -74,8 +75,8 @@ with commands.
 
 def main():
 	listConcepts()
-	listMethods()
-	listComprehension()
+	#listMethods()
+	#listComprehension()
 
 if __name__ == '__main__':
 	main()
